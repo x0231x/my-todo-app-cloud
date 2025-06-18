@@ -26,7 +26,11 @@ SECRET_KEY = env("SECRET_KEY")            # 從環境變數讀取
 DEBUG = env("DEBUG")                      # production 設 False
 
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = [
+    "my-todo-app-cloud.onrender.com",
+    "127.0.0.1",
+    "localhost",
+]
 
 
 # Application definition
