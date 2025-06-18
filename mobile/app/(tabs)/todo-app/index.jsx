@@ -10,7 +10,7 @@ import {
   useColorScheme,
 } from "react-native";
 
-const API = "https://my-todo-backend.onrender.com/api/tasks/";
+const API = "https://my-todo-app-cloud.onrender.com/api/tasks/";
 
 export default function TodoApp() {
   const [tasks, setTasks] = useState([]);
